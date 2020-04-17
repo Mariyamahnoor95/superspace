@@ -22,3 +22,4 @@ if guess == secretNumber:
 
 else:
     print('nope the number i was thinking was ' + str(secretNumber))
+    print('try again')
