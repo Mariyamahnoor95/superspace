@@ -17,9 +17,9 @@ for guessesTaken in range (1,7):
         break
 
 if guess == secretNumber:
-    print('Good Job...!!!' + name + ' you guessed my number in  ' + str(guessesTaken) + ' guesses')
+    print('Good Job...!!! ' + name + 'you guessed my number in  ' + str(guessesTaken) + ' guesses')
     print('Thanks')
 
 else:
-    print('Nope the number i was thinking was ' + str(secretNumber))
+    print('Nope the number I was thinking was ' + str(secretNumber))
     print('Try Again!')
